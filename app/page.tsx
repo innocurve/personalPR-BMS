@@ -96,24 +96,6 @@ const [posts, setPosts] = useState<PostData[]>([
     },
     tags: ['#AI마케팅', '#디지털콘텐츠', '#비용효율화', '#퀄리티향상']
   },
-  {
-    id: 5,
-    title: {
-      ko: '금강샤론',
-      en: 'Geumgang Sharon',
-      ja: '金剛シャロン',
-      zh: '金刚沙龙',
-    },
-    date: '2024-01-05',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EB%8A%94%20%EB%94%94%EC%9E%90%EC%9D%B8-FGdqIT95etjPBkIXDiG4NcAKWr8gZC.png',
-    description: {
-      ko: '40년의 전통과 장인 정신으로 빚어낸 유리 공예의 아름다움, 금강샤론그라스는 고급스러운 디자인과 뛰어난 품질로 담금주의 깊은 맛과 멋을 완성하는 대한민국 대표 유리 용기 브랜드입니다.',
-      en: 'With 40 years of tradition and craftsmanship, Geumgang Sharon Glass is Korea\'s leading glass container brand that completes the deep taste and style of liquor with luxurious design and excellent quality.',
-      ja: '40年の伝統と職人精神で作り上げたガラス工芸の美しさ、金剛シャロングラスは高級なデザインと優れた品質で漬け込み酒の深い味わいと風情を完成させる韓国を代表するガラス容器ブランドです。',
-      zh: '拥有40年传统和工艺精神的金刚沙龙玻璃，以其奢华的设计和卓越的品质，完成了韩国顶级玻璃容器品牌的深厚口感和格调。',
-    },
-    tags: ['#담금주', '#프리미엄디자인', '#장인정신', '#유리공예']
-  },
 ]);
 
 const router = useRouter();
@@ -416,25 +398,24 @@ return (
             <h3 className="font-bold text-lg mb-4">{translate('contact', language)}</h3>
             <div className="flex items-center space-x-2 mb-2">
               <Mail className="w-5 h-5" />
-              <p>zhrpxk0514@naver.com</p>
+              <p>csj9909@naver.com</p>
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="w-5 h-5" />
-              <p>010-9984-9308</p>
+              <p>010-7371-7509</p>
             </div>
           </div>
           <div>
             <h3 className="font-bold text-lg mb-4">{translate('affiliation', language)}</h3>
             <div className="space-y-2">
-              <p>메리츠 RCM 2본부</p>
               <p>(사)대한청년을세계로</p>
-              <p>새마을 대덕구청년미래연대</p>
+              <p>이노커브</p>
             </div>
           </div>
           <div>
             <h3 className="font-bold text-lg mb-4">{translate('socialMedia', language)}</h3>
             <div className="space-y-2">
-              <Link href="https://www.instagram.com/o_ooookc/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-400 transition duration-300">
+              <Link href="https://www.instagram.com/seokkjae/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-blue-400 transition duration-300">
                 <span>Instagram</span>
               </Link>
             </div>

@@ -22,10 +22,10 @@ export const translations: TranslationDictionary = {
     zh: '价值观',
   },
   valuesDescription: {
-    ko: 'AI로\n더 나은 삶을 만들고\n인연을 소중히',
-    en: 'Creating better lives\nwith AI and\nvaluing relationships',
-    ja: 'AIで\nより良い人生を創り\n縁を大切に',
-    zh: '用AI\n创造更好的生活\n珍惜缘分',
+    ko: 'AI와 청년,\n그리고 스포츠\n미래를 움직이는 힘',
+    en: 'AI and Youth,\nand Sports\nPower to Move the Future',
+    ja: 'AIと青年、\nそしてスポーツ\n未来を動かす力',
+    zh: 'AI与青年，\n以及体育\n推动未来的力量',
   },
   history: {
     ko: '연혁',
@@ -40,16 +40,16 @@ export const translations: TranslationDictionary = {
     zh: '项目',
   },
   name: {
-    ko: '오경찬',
-    en: 'Kyungchan Oh',
-    ja: '吳烱燦',
-    zh: '吳烱燦',
+    ko: '최석재',
+    en: 'Seokjae Choi',
+    ja: '崔碩宰',
+    zh: '崔碩宰',
   },
   title: {
-    ko: 'Financial Planner|사단법인 부본부장',
-    en: 'Financial Planner|Vice Director of Non-Profit Organization',
-    ja: 'ファイナンシャルプランナー|社団法人副本部長',
-    zh: '理财规划师|社团法人副本部长',
+    ko: '사단법인 사무국장|AI 에이전트',
+    en: 'Secretary General of the Association|AI Agent',
+    ja: '社団法人事務局長|AIエージェント',
+    zh: '社团法人事务局长|AI代理',
   },
   birth: {
     ko: '출생',
@@ -58,10 +58,10 @@ export const translations: TranslationDictionary = {
     zh: '出生',
   },
   birthDate: {
-    ko: '1998년 5월 14일',
-    en: 'May 14, 1998',
-    ja: '1998年5月14日',
-    zh: '1998年5月14日',
+    ko: '1999년 9월 27일',
+    en: 'Sep 27, 1999',
+    ja: '1999年9月27日',
+    zh: '1999年9月27日',
   },
   affiliation: {
     ko: '소속',
@@ -70,10 +70,10 @@ export const translations: TranslationDictionary = {
     zh: '隶属',
   },
   affiliationDescription: {
-    ko: '메리츠 RCM본부 2본부 3지점 FP\n(사)대한청년을세계로 대전본부 부본부장\n새마을 대덕구청년미래연대 부회장',
-    en: 'Financial Planner, Meritz RCM Division 2 Branch 3\nVice Director, Korea Youth to the World Association Daejeon Branch\nVice Chairman, Saemaul Daedeok-gu Youth Future Alliance',
-    ja: 'メリッツRCM本部第2本部第3支店 FP\n(社)大韓青年を世界へ大田本部副本部長\nセマウル大徳区青年未来連帯副会長',
-    zh: '美利兹RCM本部第2本部第3支店 理财规划师\n(社)韩国青年走向世界大田本部副本部长\n新村大德区青年未来联合副会长',
+    ko: '(사)대한청년을세계로 사무국장\n이노커브 AI AGENT',
+    en: 'Secretary General of the Association|AI Agent',
+    ja: '社団法人事務局長|AIエージェント',
+    zh: '社团法人事务局长|AI代理',
   },
   education: {
     ko: '학력',
@@ -82,10 +82,10 @@ export const translations: TranslationDictionary = {
     zh: '教育',
   },
   educationDescription: {
-    ko: '추가 예정',
-    en: 'To be updated',
-    ja: '追加予定',
-    zh: '待添加',
+    ko: '배재대학교 레저스포츠학 학사',
+    en: 'PaiChai University, Leisure Sports Bachelor',
+    ja: '培材大学 レジャースポーツ学 学士',
+    zh: '培材大学 休闲体育学 学士',
   },
   field: {
     ko: '분야',
@@ -94,10 +94,10 @@ export const translations: TranslationDictionary = {
     zh: '领域',
   },
   fieldDescription: {
-    ko: 'AI, 보험, 청년',
-    en: 'AI, Insurance, Youth',
-    ja: 'AI、保険、青年',
-    zh: 'AI，保险，青年',
+    ko: 'AI, 청년, 스포츠',
+    en: 'AI, Youth, Sports',
+    ja: 'AI、青年、スポーツ',
+    zh: 'AI，青年，体育',
   },
   mbti: {
     ko: 'MBTI',
@@ -106,10 +106,10 @@ export const translations: TranslationDictionary = {
     zh: 'MBTI',
   },
   mbtiType: {
-    ko: 'ESTJ',
-    en: 'ESTJ',
-    ja: 'ESTJ',
-    zh: 'ESTJ',
+    ko: 'ENTJ',
+    en: 'ENTJ',
+    ja: 'ENTJ',
+    zh: 'ENTJ',
   },
   contact: {
     ko: '문의',
@@ -214,16 +214,16 @@ export const translations: TranslationDictionary = {
     zh: '联系方式',
   },
   greetingTitle: {
-    ko: '소중한 인연을 잇고,\n더 나은 미래를 설계하다',
-    en: 'Connecting Precious Relationships,\nDesigning a Better Future',
-    ja: '大切な縁をつなぎ、\nより良い未来を設計する',
-    zh: '连接珍贵的缘分，\n设计更美好的未来',
+    ko: '더 나은 미래를 향한\n당신의 발걸음',
+    en: 'A Step Forward\nfor a Better Future',
+    ja: 'より良い未来を目指す\nあなたの一歩',
+    zh: '迈向更美好未来的\n您的脚步',
   },
   greetingDescription: {
-    ko: 'AI가 발전할수록,\n인간의 가치는 더욱 선명해집니다.\n\n저는 보험과 AI를 결합해\n더 정확하고 신뢰할 수 있는\n맞춤형 솔루션을 제공합니다.\n\n작은 인연도 소중히 여기며,\n더 나은 미래를 함께 만들어갑니다.',
-    en: 'As AI advances,\nhuman value becomes even clearer.\n\nI provide accurate and reliable\ncustomized solutions by combining\ninsurance with AI.\n\nValuing every connection,\nwe create a better future together.',
-    ja: 'AIが発展するほど、\n人間の価値はより鮮明になります。\n\n保険とAIを組み合わせ、\nより正確で信頼できる\nカスタマイズされたソリューションを提供します。\n\n小さな縁も大切にし、\nより良い未来を共に創造します。',
-    zh: '随着AI的发展，\n人类的价值愈发清晰。\n\n我通过结合保险和AI，\n提供更准确、更可靠的\n定制化解决方案。\n\n珍惜每一份缘分，\n共同创造更美好的未来。',
+    ko: '우리는 AI를 통해 더 스마트하게,\n청년들과 함께 더 뜨겁게,\n스포츠로 더 강인하게 나아갑니다.\n\n당신의 열정과 도전이 흐려지지 않도록,\n우리는 당신의 가치를 더욱 선명하게 기록합니다.\n\nInnoCurve, 당신과 함께 혁신을 그립니다.',
+    en: 'We move forward smarter through AI,\nmore passionately with youth,\nand stronger through sports.\n\nTo keep your passion and challenges bright,\nwe record your value more clearly.\n\nInnoCurve, drawing innovation together with you.',
+    ja: '私たちはAIでよりスマートに、\n青年たちと共により熱く、\nスポーツでより力強く前進します。\n\nあなたの情熱と挑戦が薄れないように、\nあなたの価値をより鮮明に記録します。\n\nInnoCurve、共にイノベーションを描きます。',
+    zh: '我们通过AI变得更智能，\n与青年一起更热情，\n通过体育变得更强大。\n\n为了让您的热情与挑战永不褪色，\n我们更清晰地记录您的价值。\n\nInnoCurve，与您一起描绘创新。',
   },
   chatInputPlaceholder: {
     ko: '메시지를 입력하세요...',
@@ -298,16 +298,16 @@ export const translations: TranslationDictionary = {
     zh: '返回',
   },
   initialGreeting: {
-    ko: '안녕하세요! 저는 오경찬입니다. 무엇을 도와드릴까요?',
-    en: 'Hello! I am Kyungchan Oh. How can I help you?',
-    ja: 'こんにちは！吳烱燦と申します。何かお手伝いできることはありますか？',
-    zh: '你好！我是吳烱燦。我能为您做些什么？'
+    ko: '안녕하세요! 저는 최석재입니다. 무엇을 도와드릴까요?',
+    en: 'Hello! I am Seokjae Choi. How can I help you?',
+    ja: 'こんにちは！崔碩宰と申します。何かお手伝いできることはありますか？',
+    zh: '你好！我是崔碩宰。我能为您做些什么？'
   },
   cloneGreeting: {
-    ko: "안녕하세요! 저는 오경찬's Clone입니다. 무엇을 도와드릴까요?",
-    en: "Hello! I'm Kyungchan Oh's Clone. How can I help you?",
-    ja: "こんにちは！吳烱燦のクローンです。どのようにお手伝いできますか？",
-    zh: "你好！我是吳烱燦的克隆。我能为您做些什么？"
+    ko: "안녕하세요! 저는 최석재's Clone입니다. 무엇을 도와드릴까요?",
+    en: "Hello! I'm Seokjae Choi's Clone. How can I help you?",
+    ja: "こんにちは！崔碩宰のクローンです。どのようにお手伝いできますか？",
+    zh: "你好！我是崔碩宰的克隆。我能为您做些什么？"
   },
 };
 
