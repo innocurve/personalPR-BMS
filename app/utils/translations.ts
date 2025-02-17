@@ -28,10 +28,16 @@ export const translations: TranslationDictionary = {
     zh: 'AI与青年，\n以及体育\n推动未来的力量',
   },
   history: {
-    ko: '연혁',
-    en: 'History',
-    ja: '経歴',
-    zh: '历史',
+    ko: '자격',
+    en: 'Certifications',
+    ja: '資格',
+    zh: '资格',
+  },
+  sectionTitle: {
+    ko: '인증 및 자격',
+    en: 'Certifications',
+    ja: '認定及び資格',
+    zh: '认证及资格',
   },
   activities: {
     ko: '프로젝트',

@@ -210,8 +210,8 @@ return (
             <nav className="hidden md:flex space-x-6">
               <Link href="#profile" onClick={(e) => handleScrollTo(e, 'profile')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('profile', language)}</Link>
               <Link href="#smart-options" onClick={(e) => handleScrollTo(e, 'smart-options')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('smartOptions', language)}</Link>
-              <Link href="#values" onClick={(e) => handleScrollTo(e, 'values')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('values', language)}</Link>
               <Link href="#history" onClick={(e) => handleScrollTo(e, 'history')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('history', language)}</Link>
+              <Link href="#values" onClick={(e) => handleScrollTo(e, 'values')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('values', language)}</Link>
               <Link href="#community" onClick={(e) => handleScrollTo(e, 'community')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('activities', language)}</Link>
             </nav>
             <LanguageToggle />
@@ -234,8 +234,8 @@ return (
           <div className="flex flex-col">
             <Link href="#profile" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'profile'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('profile', language)}</Link>
             <Link href="#smart-options" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'smart-options'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('smartOptions', language)}</Link>
-            <Link href="#values" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'values'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('values', language)}</Link>
             <Link href="#history" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'history'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('history', language)}</Link>
+            <Link href="#values" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'values'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('values', language)}</Link>
             <Link href="#community" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'community'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('activities', language)}</Link>
           </div>
         </motion.nav>
@@ -303,20 +303,22 @@ return (
 
       <div className="w-full overflow-x-hidden">
         <FadeInSection>
-          <section id="values" className="mb-8 pt-8">
-            <MyValues language={language} />
-          </section>
-        </FadeInSection>
-      </div>
-      <div className="w-full overflow-x-hidden">
-        <FadeInSection>
           <section id="history" className="mb-8 bg-white rounded-xl p-8 shadow-lg overflow-hidden relative">
             <History />
           </section>
         </FadeInSection>
       </div>
+
       <div className="w-full overflow-x-hidden">
-      <FadeInSection>
+        <FadeInSection>
+          <section id="values" className="mb-8 pt-8">
+            <MyValues language={language} />
+          </section>
+        </FadeInSection>
+      </div>
+
+      <div className="w-full overflow-x-hidden">
+        <FadeInSection>
           <section id="community" className="py-16">
             <div className="container mx-auto px-4">
               <Swiper
