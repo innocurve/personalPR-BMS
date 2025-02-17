@@ -22,10 +22,10 @@ export const translations: TranslationDictionary = {
     zh: '价值观',
   },
   valuesDescription: {
-    ko: 'AI와 청년,\n그리고 스포츠\n미래를 움직이는 힘',
-    en: 'AI and Youth,\nand Sports\nPower to Move the Future',
-    ja: 'AIと青年、\nそしてスポーツ\n未来を動かす力',
-    zh: 'AI与青年，\n以及体育\n推动未来的力量',
+    ko: 'AI 기술의 문턱을 낮추는 것이 아니라,\n뛰어넘을 때 혁신이 시작됩니다.',
+    en: 'Innovation begins not by lowering\nthe threshold of AI technology,\nbut by surpassing it.',
+    ja: 'AI技術の敷居を下げるのではなく、\n乗り越えた時にイノベーションが始まります。',
+    zh: '创新不是降低AI技术的门槛，\n而是在跨越门槛时开始的。',
   },
   history: {
     ko: '자격',
@@ -46,16 +46,16 @@ export const translations: TranslationDictionary = {
     zh: '项目',
   },
   name: {
-    ko: '최석재',
-    en: 'Seokjae Choi',
-    ja: '崔碩宰',
-    zh: '崔碩宰',
+    ko: '변민수',
+    en: 'Minsoo Byeon',
+    ja: '邊慜洙',
+    zh: '邊慜洙',
   },
   title: {
-    ko: '사단법인 사무국장|AI 에이전트',
-    en: 'Secretary General of the Association|AI Agent',
-    ja: '社団法人事務局長|AIエージェント',
-    zh: '社团法人事务局长|AI代理',
+    ko: 'AI 에이전트',
+    en: 'AI Agent',
+    ja: 'AIエージェント',
+    zh: 'AI代理',
   },
   birth: {
     ko: '출생',
@@ -64,10 +64,10 @@ export const translations: TranslationDictionary = {
     zh: '出生',
   },
   birthDate: {
-    ko: '1999년 9월 27일',
-    en: 'Sep 27, 1999',
-    ja: '1999年9月27日',
-    zh: '1999年9月27日',
+    ko: '1999년 1월 10일',
+    en: 'Jan 10, 1999',
+    ja: '1999年1月10日',
+    zh: '1999年1月10日',
   },
   affiliation: {
     ko: '소속',
@@ -76,10 +76,10 @@ export const translations: TranslationDictionary = {
     zh: '隶属',
   },
   affiliationDescription: {
-    ko: '(사)대한청년을세계로 사무국장\n이노커브 AI AGENT',
-    en: 'Secretary General of the Association|AI Agent',
-    ja: '社団法人事務局長|AIエージェント',
-    zh: '社团法人事务局长|AI代理',
+    ko: '(사)대한청년을세계로 운영위원\n이노커브 AI AGENT',
+    en: 'Operating Committee Member of the Association\nInnoCurve AI AGENT',
+    ja: '社団法人 運営委員\nイノカーブ AIエージェント',
+    zh: '社団法人 运营委员\nInnoCurve AI代理',
   },
   education: {
     ko: '학력',
@@ -100,10 +100,10 @@ export const translations: TranslationDictionary = {
     zh: '领域',
   },
   fieldDescription: {
-    ko: 'AI, 청년, 스포츠',
-    en: 'AI, Youth, Sports',
-    ja: 'AI、青年、スポーツ',
-    zh: 'AI，青年，体育',
+    ko: 'AI, 청년',
+    en: 'AI, Youth',
+    ja: 'AI、青年',
+    zh: 'AI，青年',
   },
   mbti: {
     ko: 'MBTI',
@@ -220,16 +220,16 @@ export const translations: TranslationDictionary = {
     zh: '联系方式',
   },
   greetingTitle: {
-    ko: '더 나은 미래를 향한\n당신의 발걸음',
-    en: 'A Step Forward\nfor a Better Future',
-    ja: 'より良い未来を目指す\nあなたの一歩',
-    zh: '迈向更美好未来的\n您的脚步',
+    ko: '흐려지는 것이 아닌,\n더 선명해지는 청년의 미래',
+    en: 'Not fading away,\nbut a youth future that grows clearer',
+    ja: '薄れていくのではなく、\nより鮮明になっていく青年の未来',
+    zh: '不是渐渐模糊，\n而是愈发清晰的青年未来',
   },
   greetingDescription: {
-    ko: '우리는 AI를 통해 더 스마트하게,\n청년들과 함께 더 뜨겁게,\n스포츠로 더 강인하게 나아갑니다.\n\n당신의 열정과 도전이 흐려지지 않도록,\n우리는 당신의 가치를 더욱 선명하게 기록합니다.\n\nInnoCurve, 당신과 함께 혁신을 그립니다.',
-    en: 'We move forward smarter through AI,\nmore passionately with youth,\nand stronger through sports.\n\nTo keep your passion and challenges bright,\nwe record your value more clearly.\n\nInnoCurve, drawing innovation together with you.',
-    ja: '私たちはAIでよりスマートに、\n青年たちと共により熱く、\nスポーツでより力強く前進します。\n\nあなたの情熱と挑戦が薄れないように、\nあなたの価値をより鮮明に記録します。\n\nInnoCurve、共にイノベーションを描きます。',
-    zh: '我们通过AI变得更智能，\n与青年一起更热情，\n通过体育变得更强大。\n\n为了让您的热情与挑战永不褪色，\n我们更清晰地记录您的价值。\n\nInnoCurve，与您一起描绘创新。',
+    ko: 'AI가 혁신을 주도하는 시대,\n그 중심에는 언제나 청년의 도전이 있습니다.\n\n우리는 기술을 넘어,\n당신의 가능성을 더욱 깊이 새깁니다.',
+    en: 'In an era where AI leads innovation,\nyouth challenges are always at its core.\n\nBeyond technology,\nwe engrave your potential more deeply.',
+    ja: 'AIがイノベーションを主導する時代、\nその中心には常に青年の挑戦があります。\n\n私たちは技術を超えて、\nあなたの可能性をより深く刻みます。',
+    zh: '在AI引领创新的时代，\n青年的挑战永远处于核心。\n\n超越技术，\n我们将您的潜力铭刻得更深。',
   },
   chatInputPlaceholder: {
     ko: '메시지를 입력하세요...',
@@ -304,16 +304,16 @@ export const translations: TranslationDictionary = {
     zh: '返回',
   },
   initialGreeting: {
-    ko: '안녕하세요! 저는 최석재입니다. 무엇을 도와드릴까요?',
-    en: 'Hello! I am Seokjae Choi. How can I help you?',
-    ja: 'こんにちは！崔碩宰と申します。何かお手伝いできることはありますか？',
-    zh: '你好！我是崔碩宰。我能为您做些什么？'
+    ko: '안녕하세요! 저는 변민수입니다. 무엇을 도와드릴까요?',
+    en: 'Hello! I am Minsoo Byeon. How can I help you?',
+    ja: 'こんにちは！邊慜洙と申します。何かお手伝いできることはありますか？',
+    zh: '你好！我是邊慜洙。我能为您做些什么？'
   },
   cloneGreeting: {
-    ko: "안녕하세요! 저는 최석재's Clone입니다. 무엇을 도와드릴까요?",
-    en: "Hello! I'm Seokjae Choi's Clone. How can I help you?",
-    ja: "こんにちは！崔碩宰のクローンです。どのようにお手伝いできますか？",
-    zh: "你好！我是崔碩宰的克隆。我能为您做些什么？"
+    ko: "안녕하세요! 저는 변민수's Clone입니다. 무엇을 도와드릴까요?",
+    en: "Hello! I'm Minsoo Byeon's Clone. How can I help you?",
+    ja: "こんにちは！邊慜洙のクローンです。どのようにお手伝いできますか？",
+    zh: "你好！我是邊慜洙的克隆。我能为您做些什么？"
   },
 };
 

@@ -17,7 +17,7 @@ const ContactOptions: React.FC<ContactOptionsProps> = ({ language }) => {
     } else if (key === 'greetingVideo') {
       router.push('/greeting')
     } else if (key === 'phone') {
-      window.location.href = 'tel:+8210-7371-7509'
+      window.location.href = 'tel:+8210-8871-9901'
     } else if (key === 'innocard') {
       router.push('/inquiry')
     }
