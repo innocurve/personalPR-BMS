@@ -95,7 +95,7 @@ const [posts, setPosts] = useState<PostData[]>([
       zh: '通过制作AI驱动的网站、图像和视频等各种数字内容，有效降低成本，并以最高质量支持有效的推广。',
     },
     tags: ['#AI마케팅', '#디지털콘텐츠', '#비용효율화', '#퀄리티향상']
-  },
+  }
 ]);
 
 const router = useRouter();
@@ -104,9 +104,14 @@ const router = useRouter();
 useEffect(() => {
   const loadInitialData = () => {
     const storedPosts = localStorage.getItem('posts');
-    if (!storedPosts) {
-      // 초기 데이터가 없을 때만 설정
+    const currentVersion = '1.0'; // 데이터 버전 관리
+    const storedVersion = localStorage.getItem('posts_version');
+
+    // 버전이 다르거나 저장된 데이터가 없을 때만 초기화
+    if (!storedPosts || storedVersion !== currentVersion) {
       localStorage.setItem('posts', JSON.stringify(posts));
+      localStorage.setItem('posts_version', currentVersion);
+      setPosts(posts);
     } else {
       // 저장된 데이터가 있으면 그것을 사용
       setPosts(JSON.parse(storedPosts));
@@ -118,10 +123,9 @@ useEffect(() => {
 
 // localStorage 데이터 변경 감지 및 상태 업데이트
 useEffect(() => {
-  const handleStorageChange = () => {
-    const storedPosts = localStorage.getItem('posts');
-    if (storedPosts) {
-      setPosts(JSON.parse(storedPosts));
+  const handleStorageChange = (e: StorageEvent) => {
+    if (e.key === 'posts' && e.newValue) {
+      setPosts(JSON.parse(e.newValue));
     }
   };
 
