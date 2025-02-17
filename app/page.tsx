@@ -13,7 +13,6 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import MyValues from './components/MyValues'
-import History from './components/Career'
 import FadeInSection from './components/FadeInSection'
 import { useState, useEffect } from 'react';
 import { Menu, X, Mail, Phone } from 'lucide-react'
@@ -210,7 +209,6 @@ return (
             <nav className="hidden md:flex space-x-6">
               <Link href="#profile" onClick={(e) => handleScrollTo(e, 'profile')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('profile', language)}</Link>
               <Link href="#smart-options" onClick={(e) => handleScrollTo(e, 'smart-options')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('smartOptions', language)}</Link>
-              <Link href="#history" onClick={(e) => handleScrollTo(e, 'history')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('history', language)}</Link>
               <Link href="#values" onClick={(e) => handleScrollTo(e, 'values')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('values', language)}</Link>
               <Link href="#community" onClick={(e) => handleScrollTo(e, 'community')} className="font-mono tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300">{translate('activities', language)}</Link>
             </nav>
@@ -234,7 +232,6 @@ return (
           <div className="flex flex-col">
             <Link href="#profile" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'profile'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('profile', language)}</Link>
             <Link href="#smart-options" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'smart-options'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('smartOptions', language)}</Link>
-            <Link href="#history" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'history'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('history', language)}</Link>
             <Link href="#values" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'values'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('values', language)}</Link>
             <Link href="#community" onClick={(e) => { setIsMenuOpen(false); handleScrollTo(e, 'community'); }} className="block p-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 transition duration-300 font-mono tracking-tight">{translate('activities', language)}</Link>
           </div>
@@ -269,22 +266,25 @@ return (
               </div>
               <div className="w-full max-w-2xl mx-auto">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  <ProfileItem label={translate('birth', language)} value={[translate('birthDate', language)]} className="text-center" />
-                  <ProfileItem label={translate('mbti', language)} value={[translate('mbtiType', language)]} className="text-center" />
                   <ProfileItem 
-                    label={translate('affiliation', language)} 
-                    value={translate('affiliationDescription', language).split('\n')} 
-                    className="text-center"
+                    label={translate('birth', language)} 
+                    value={[translate('birthDate', language)]} 
+                    className="mb-4 text-center" 
                   />
                   <ProfileItem 
-                    label={translate('education', language)} 
-                    value={translate('educationDescription', language).split('\n')} 
-                    className="text-center"
+                    label={translate('affiliation', language)}
+                    value={translate('affiliationDescription', language).split('\n')}
+                    className="mb-4 text-center"
                   />
                   <ProfileItem 
-                    label={translate('field', language)} 
-                    value={[translate('fieldDescription', language)]} 
-                    className="text-center"
+                    label={translate('field', language)}
+                    value={translate('fieldDescription', language).split('\n')}
+                    className="mb-4 text-center"
+                  />
+                  <ProfileItem 
+                    label={translate('mbti', language)}
+                    value={[translate('mbtiType', language)]}
+                    className="mb-4 text-center"
                   />
                 </div>
               </div>
@@ -297,14 +297,6 @@ return (
         <FadeInSection>
           <section id="smart-options" className="mb-8">
             <ContactOptions language={language} />
-          </section>
-        </FadeInSection>
-      </div>
-
-      <div className="w-full overflow-x-hidden">
-        <FadeInSection>
-          <section id="history" className="mb-8 bg-white rounded-xl p-8 shadow-lg overflow-hidden relative">
-            <History />
           </section>
         </FadeInSection>
       </div>

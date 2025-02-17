@@ -77,21 +77,9 @@ export const translations: TranslationDictionary = {
   },
   affiliationDescription: {
     ko: '(사)대한청년을세계로 운영위원\n이노커브 AI AGENT',
-    en: 'Operating Committee Member of the Association\nInnoCurve AI AGENT',
-    ja: '社団法人 運営委員\nイノカーブ AIエージェント',
-    zh: '社団法人 运营委员\nInnoCurve AI代理',
-  },
-  education: {
-    ko: '학력',
-    en: 'Education',
-    ja: '学歴',
-    zh: '教育',
-  },
-  educationDescription: {
-    ko: '배재대학교 레저스포츠학 학사',
-    en: 'PaiChai University, Leisure Sports Bachelor',
-    ja: '培材大学 レジャースポーツ学 学士',
-    zh: '培材大学 休闲体育学 学士',
+    en: 'Operating Committee Member of Korean Youth to the World\nInnoCurve AI AGENT',
+    ja: '(社)韓国青年を世界へ 運営委員\nイノカーブ AIエージェント',
+    zh: '(社)韩国青年走向世界 运营委员\nInnoCurve AI代理',
   },
   field: {
     ko: '분야',
